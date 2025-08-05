@@ -1,0 +1,61 @@
+# Source control
+.git/
+.github/
+.gitignore
+
+# Tests
+test/
+tests/
+__tests__/
+*.spec.js
+*.test.js
+jest.config.js
+
+# Development configs
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.prettierrc
+.prettierrc.js
+.prettierrc.json
+.editorconfig
+tsconfig.json
+.travis.yml
+.gitlab-ci.yml
+.github/
+.vscode/
+.idea/
+
+# Documentation
+docs/
+examples/
+*.md
+!README.md
+!LICENSE.md
+
+# Build tools
+webpack.config.js
+rollup.config.js
+babel.config.js
+.babelrc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.*
+
+# Misc
+.DS_Store
+Thumbs.db
+*.tgz
+.npmrc

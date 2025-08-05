@@ -1,0 +1,51 @@
+{
+  "name": "trim-branches",
+  "version": "1.0.0",
+  "description": "A CLI tool to trim merged branches from git origin",
+  "main": "index.js",
+  "bin": {
+    "git-trim": "./index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run lint"
+  },
+  "keywords": [
+    "git",
+    "branch",
+    "trim",
+    "cleanup",
+    "merge",
+    "cli",
+    "tool"
+  ],
+  "author": "amir valizadeh <amirvalizadeh8731@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amir-valizadeh/trim-branches.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amir-valizadeh/trim-branches/issues"
+  },
+  "homepage": "https://github.com/amir-valizadeh/trim-branches#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "inquirer": "^8.2.5",
+    "simple-git": "^3.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "jest": "^29.3.1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
