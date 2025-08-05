@@ -84,7 +84,7 @@ class BranchPruner {
 
                 // Skip develop branch if keeping it
                 if (this.keepDevelop && branch === 'develop') {
-                    this.log('yellow', '⚠️', "Keeping 'develop' branch (use --no-keep-develop to remove)");
+                    this.log('yellow', '⚠️', 'Keeping \'develop\' branch (use --no-keep-develop to remove)');
                     continue;
                 }
 
@@ -266,7 +266,7 @@ class BranchPruner {
             const remainingCount = await this.getRemainingBranchCount();
             this.log('blue', '📊', `Remaining remote branches: ${remainingCount}`);
 
-            this.log('yellow', '💡', "Tip: Run 'git branch -vv' to see if you have any local branches tracking deleted remotes");
+            this.log('yellow', '💡', 'Tip: Run \'git branch -vv\' to see if you have any local branches tracking deleted remotes');
 
         } catch (error) {
             this.log('red', '❌', `Error: ${error.message}`);
